@@ -4,7 +4,7 @@ UM PEQUENO MANUAL PARA O GIT HUB
 02 - git add .  -> carrega arquivos para a espera de transmicao ou regitro do commit
 03 - git commit -m -> ele e responsavel de indicar quem e este arquivo dando um nome para a gravacao ... tipo commit -m "versao test"
 03 - git status -> verifica que estatus esta os arquivos ou registros 
-04 - git push -u original master -> descarrega no diretorio indicado pelo digitador
+04 - git push -u origin main -> descarrega no diretorio indicado pelo digitador
 05 - git remote add origin git@github.com:LauroPortoCosta/AGUA_MINERAL.git // indica em que diretorio vai os arquivos - nuvem
 06 - RM -R  remove diretorio ( comando do linux )
 07 - CLEAR - limpa diretorio ( comando do linux )
@@ -21,7 +21,18 @@ UM PEQUENO MANUAL PARA O GIT HUB
 18 - git config --global user.name " xxxxxxx " 
 19 - git config --global user.email  "xxxxxx"   entre aspas
 20 - ls -al ~/.ssh .... verificar chave ssh
-21 - ssh-keygen ... cria a chave 
+21 - ssh-keygen ... cria a chave  (/c/Users/USUARIO/.ssh/id_rsa)
+22 - ssh-keygen -t rsa -b 4096 -C "lauroplatinum@gmail.com" 
+---------------------PROCESSO QUE FUNCIONOU ----------------------------------
+git --version
+git init
+git add .
+git status
+git branch -M main
+git commit -m "qualquer assunto"
+git remote add origin git@github.com:LauroPortoCosta/GERAL.git  /// ATENCAO ... SEM O https ...
+git push -u origin main
+TOP ....
 
 
 
