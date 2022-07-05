@@ -1,0 +1,28 @@
+UM PEQUENO MANUAL PARA O GIT HUB
+
+01 - git init   -> inicia uma secao para o git
+02 - git add .  -> carrega arquivos para a espera de transmicao ou regitro do commit
+03 - git commit -m -> ele e responsavel de indicar quem e este arquivo dando um nome para a gravacao ... tipo commit -m "versao test"
+03 - git status -> verifica que estatus esta os arquivos ou registros 
+04 - git push -u original master -> descarrega no diretorio indicado pelo digitador
+05 - git remote add origin git@github.com:LauroPortoCosta/AGUA_MINERAL.git // indica em que diretorio vai os arquivos - nuvem
+06 - RM -R  remove diretorio ( comando do linux )
+07 - CLEAR - limpa diretorio ( comando do linux )
+08 - CP - copia uma arquivo ( cp arquivoX arquivoY)
+09 - ctrl + - amplia a netra no monitro
+10 - CAT - le o conteudo de um arquivo ... exe cat reame.txt
+11 - git --version - verifica a versao do git 
+12 - git checkaut codigo_registro_da_alteracao 
+13 - git clone  https://... copia arquivo do github para minha maquina
+14 - git config --list
+15 - git log  da a informacao de como tudo esta acontecendo nas alteracoes inclusvie o codigo_registro_da_alteracao
+16 - git branch -M main  // muda a nomeclatura do git de master para main
+17 - PWD mostra o diretorio ( comando do linux)
+18 - git config --global user.name " xxxxxxx " 
+19 - git config --global user.email  "xxxxxx"   entre aspas
+20 - ls -al ~/.ssh .... verificar chave ssh
+21 - ssh-keygen ... cria a chave 
+
+
+
+
